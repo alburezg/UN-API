@@ -2,7 +2,7 @@
 title: "UN API Test"
 author: "Carl Schmertmann"
 date: "13 July 2022"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
