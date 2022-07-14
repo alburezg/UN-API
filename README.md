@@ -281,26 +281,26 @@ df_data %>%
     ## # A tibble: 20 x 10
     ##    Location   AgeId AgeLabel AgeStart AgeEnd AgeMid TimeId TimeLabel TimeMid
     ##    <chr>      <int>    <int>    <int>  <int>  <int>  <int>     <int>   <dbl>
-    ##  1 Bangladesh    98       50       50     50     50     49      1998   1998.
-    ##  2 India         92       20       20     20     20     45      1994   1994.
-    ##  3 Bangladesh   118       21       21     21     21     49      1998   1998.
-    ##  4 Bangladesh   118       21       21     21     21     43      1992   1992.
-    ##  5 Bangladesh   136       41       41     41     41     48      1997   1998.
-    ##  6 India        140       46       46     46     46     42      1991   1992.
-    ##  7 India        125       29       29     29     29     50      1999   2000.
-    ##  8 Bangladesh   109       11       11     11     11     44      1993   1994.
-    ##  9 India        128       32       32     32     32     50      1999   2000.
-    ## 10 India        122       26       26     26     26     50      1999   2000.
-    ## 11 India        119       22       22     22     22     49      1998   1998.
-    ## 12 Bangladesh   115       18       18     18     18     45      1994   1994.
-    ## 13 India        127       31       31     31     31     47      1996   1996.
-    ## 14 Bangladesh   147       54       54     54     54     42      1991   1992.
-    ## 15 Bangladesh   128       32       32     32     32     50      1999   2000.
-    ## 16 India        133       38       38     38     38     46      1995   1996.
-    ## 17 India        151       59       59     59     59     42      1991   1992.
-    ## 18 Bangladesh   147       54       54     54     54     43      1992   1992.
-    ## 19 India        149       57       57     57     57     48      1997   1998.
-    ## 20 India         95       35       35     35     35     45      1994   1994.
+    ##  1 Bangladesh   132       37       37     37     37     45      1994   1994.
+    ##  2 India         86       15       15     15     15     43      1992   1992.
+    ##  3 India        134       39       39     39     39     45      1994   1994.
+    ##  4 India        121       24       24     24     24     45      1994   1994.
+    ##  5 India         91       10       10     10     10     41      1990   1990.
+    ##  6 India         86       15       15     15     15     48      1997   1998.
+    ##  7 India        111       13       13     13     13     47      1996   1996.
+    ##  8 Bangladesh    97       45       45     45     45     45      1994   1994.
+    ##  9 Bangladesh   115       18       18     18     18     48      1997   1998.
+    ## 10 India        130       34       34     34     34     43      1992   1992.
+    ## 11 Bangladesh   148       56       56     56     56     46      1995   1996.
+    ## 12 India        150       58       58     58     58     45      1994   1994.
+    ## 13 India        132       37       37     37     37     44      1993   1994.
+    ## 14 Bangladesh   109       11       11     11     11     45      1994   1994.
+    ## 15 India        120       23       23     23     23     47      1996   1996.
+    ## 16 Bangladesh    99       55       55     55     55     47      1996   1996.
+    ## 17 India        136       41       41     41     41     49      1998   1998.
+    ## 18 Bangladesh   142       48       48     48     48     50      1999   2000.
+    ## 19 Bangladesh   116       19       19     19     19     44      1993   1994.
+    ## 20 Bangladesh   129       33       33     33     33     50      1999   2000.
     ## # ... with 1 more variable: Value <dbl>
 
 Now that we know what the data structure looks like, let’s plot the
@@ -323,4 +323,4 @@ ggplot(data=df) +
   facet_wrap(~Year, ncol=1)
 ```
 
-![](un-api-example_files/figure-gfm/make_plot-1.png)<!-- -->
+![](README_files/figure-gfm/make_plot-1.png)<!-- -->
